@@ -1,0 +1,23 @@
+main:
+  - name: Why Productive?                                             
+    url: "#features"
+  - name: Services
+    url: "#services"
+  - name: How It Works
+    url: "#how-its-works"
+  - name: Pricing
+    url: "#price"
+    
+
+right:
+  - name: Sign In 
+    url: 'http://timetracking-alb-1855722110.ca-central-1.elb.amazonaws.com/client'
+  - name: Try Productive Free
+    url: 'http://timetracking-alb-1855722110.ca-central-1.elb.amazonaws.com/client'
+    button: true
+
+    
+
+
+
+    
