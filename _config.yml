@@ -65,7 +65,7 @@ home:
   price:
     enabled: true
     background: ""
-    heading: "All Features And Future Upgrades Included. One Simple Cost."
+    heading: "All Features And Future Upgrades Included. <br> One Simple Cost."
     smallHeading: "best Price"
     description: "At Productively we are committed to providing a feature rich experience without the hidden costs. <br> Sign up today to secure this offer. Start your 14 day free trial now."
     items:
