@@ -9,7 +9,7 @@ hero:
   subHeading: "BETTER WAY TO MANAGE PRODUCTIVITY"
   text: "Track time and understand the exact cost of your everyday activities. Identify inefficiencies and improve your business processes based on accurate data."
   btnText: "Get Started Now"
-  btnUrl: "http://timetracking-alb-1855722110.ca-central-1.elb.amazonaws.com/time-tracker"
+  btnUrl: "https://productively.app/login"
   image: "/assets/images/hero.svg"
 ---
 

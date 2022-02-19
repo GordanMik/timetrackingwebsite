@@ -11,9 +11,9 @@ main:
 
 right:
   - name: Sign In 
-    url: 'http://timetracking-alb-1855722110.ca-central-1.elb.amazonaws.com/client'
+    url: 'https://productively.app/login'
   - name: Try Productive Free
-    url: 'http://timetracking-alb-1855722110.ca-central-1.elb.amazonaws.com/client'
+    url: 'https://productively.app/login'
     button: true
 
     

@@ -1,20 +1,20 @@
 title: Productive
 email: your-email@example.com
-logo: "/assets/images/logo.svg"
+logo: "/assets/images/logo-full-w.png"
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: 
+github_username:  
 
 home:
   feature:
     enabled: true
     background:
-    heading: "Path To Improved Productivity"
+    heading: "Intuitive And Easy To Use"
     smallHeading: "FEATURE RICH"
     description: Powerful features will help you stay efficient and organized. Here are some of the benefits of using <br> a time tracking system
     items:
@@ -65,24 +65,24 @@ home:
   price:
     enabled: true
     background: ""
-    heading: "We are providing you best <br> ever plan"
+    heading: "All Features And Future Upgrades Included. One Simple Cost."
     smallHeading: "best Price"
-    description: "While we can customize your plan to suit your needs, most clients schedule regular services:"
+    description: "At Productively we are committed to providing a feature rich experience without the hidden costs. <br> Sign up today to secure this offer. Start your 14 day free trial now."
     items:
-    - heading: "Extended"
-      price: 12$
+    - heading: 
+      price: 5$
       plan: month
-      body: Per month, paid annually, or $12 paid monthly
+      body: 
       advantage:
       - text: "Easy time tracking"
       - text: "Apps for all your devices"
-      - text: Integrations that fit your workflow
+      - text: Scale your team easily as you grow
       - text: Insight into your projects and team
       - text: Support from real humans
       btnText: "Choose Plan"
-      btnUrl: "#"
+      btnUrl: "https://productively.app/"
   subscribe:
-    enabled: true
+    enabled: false
     background: "#F8F9FC"
     heading: "Subscribe our Newslatter"
     smallHeading: "what’s next?"
@@ -93,44 +93,38 @@ home:
 
 
 footer:
-  copyright: © 2021 Onix All rights reserved.
-  about: Build custom blogs, portfolios, ecommerce stores, and more with a flexible CMS. Experience the power of HTML, CSS.
+  copyright: © 2022 Productively All Rights Reserved.
+  about: We simplify time tracking and help you improve your business. Our mantra is that software should be flexible enough to suit your needs.
   leftcolHeading: Links
-  centercolHeading:  "About"
+  centercolHeading:  ""
   rightcolHeading: "Our Office"
   leftcol:
-  - link: "/"
+  - link: "#hero"
     text: Home
-  - link: "/"
+  - link: "#services"
     text: Services
-  - link: "/"
+  - link: "#how-its-works"
     text: How It Works
-  - link: "/"
-    text: Tutorial
-  - link: "/"
-    text: Contact
-  centercol:
-  - text: Partners
-    link: "#home"
-    pageType: "same"
-  - text: Careers
-    link: "#how-its-works"
-    pageType: "same"
-  - text: Press
-    link: "#about"
-    pageType: "same"
-  - text: Community
-    link: "#about"
-    pageType: "Community"
+  # centercol:
+  # - text: Partners
+  #   link: "#home"
+  #   pageType: "same"
+  # - text: Careers
+  #   link: "#how-its-works"
+  #   pageType: "same"
+  # - text: Press
+  #   link: "#about"
+  #   pageType: "same"
+  # - text: Community
+  #   link: "#about"
+  #   pageType: "Community"
   rightcol:
   - location: Indonesia
-    address: Jl. Griya Permata Hijau no D1 Purwomartani Kalasan 543881
-  - location: Tokyo
-    address: 35 Mandalay Road 13–37 Mandalay Towers Singapore 308215
+    address: "Calgary <br> #430, 404 6th Ave SW <br> AB, CANADA, T2P 0R9"
 
 
 social:
-  enable: true
+  enable: 
   items:
   - icon: "bx bxl-facebook"
     title: "facebook"

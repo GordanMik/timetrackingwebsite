@@ -9,11 +9,13 @@
               <p>
                {{foot.about}}
               </p>
+              {% if foot.social.enable%}
               <div class="social-links mt-3">
                 {% for socials in site.social.items %}
                     <a href="{{socials.link}}" title="{{socials.title}}" class="{{socials.title}}"><i class="{{socials.icon}}"></i></a>
                 {% endfor %}
               </div>
+              {% endif %}
             </div>
   
             <div class="col-lg-1 offset-lg-1 col-md-6 footer-links mt-4 mt-sm-0">
