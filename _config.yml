@@ -71,7 +71,8 @@ home:
     items:
     - heading: 
       price: 5$
-      plan: month
+      plan: per user/month
+      smallHeading: "No Creedit Card Required"
       body: 
       advantage:
       - text: "Easy time tracking"
@@ -79,8 +80,8 @@ home:
       - text: Scale your team easily as you grow
       - text: Insight into your projects and team
       - text: Support from real humans
-      btnText: "Choose Plan"
-      btnUrl: "https://productively.app/"
+      btnText: "Start your free trial!"
+      btnUrl: "https://productively.app/register"
   subscribe:
     enabled: false
     background: "#F8F9FC"
