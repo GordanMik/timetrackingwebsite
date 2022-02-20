@@ -65,22 +65,23 @@ home:
   price:
     enabled: true
     background: ""
-    heading: "All Features And Future Upgrades Included. One Simple Cost."
+    heading: "All Features And Future Upgrades Included. <br> One Simple Cost."
     smallHeading: "best Price"
     description: "At Productively we are committed to providing a feature rich experience without the hidden costs. <br> Sign up today to secure this offer. Start your 14 day free trial now."
     items:
     - heading: 
-      price: 5$
-      plan: month
+      price: $5
+      plan: per user/month
       body: 
       advantage:
+      - text: "No Creedit Card Required"
       - text: "Easy time tracking"
       - text: "Apps for all your devices"
       - text: Scale your team easily as you grow
       - text: Insight into your projects and team
       - text: Support from real humans
-      btnText: "Choose Plan"
-      btnUrl: "https://productively.app/"
+      btnText: "Start your free trial!"
+      btnUrl: "https://productively.app/register"
   subscribe:
     enabled: false
     background: "#F8F9FC"
