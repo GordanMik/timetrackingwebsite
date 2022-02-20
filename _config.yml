@@ -70,7 +70,7 @@ home:
     description: "At Productively we are committed to providing a feature rich experience without the hidden costs. <br> Sign up today to secure this offer. Start your 14 day free trial now."
     items:
     - heading: 
-      price: 5$
+      price: $5
       plan: per user/month
       body: 
       advantage:
