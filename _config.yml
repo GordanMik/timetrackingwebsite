@@ -72,9 +72,9 @@ home:
     - heading: 
       price: 5$
       plan: per user/month
-      smallHeading: "No Creedit Card Required"
       body: 
       advantage:
+      - text: "No Creedit Card Required"
       - text: "Easy time tracking"
       - text: "Apps for all your devices"
       - text: Scale your team easily as you grow
