@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: "Productive"
-description: "Productive is modern time tracking software – for less effort, more joy, and improved profitability."
+description: "Productively is modern time tracking software"
 hero:
   heading: "Improve Productivity And Reduce Cost"
   subHeading: "BETTER WAY TO MANAGE PRODUCTIVITY"
