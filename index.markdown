@@ -9,7 +9,7 @@ hero:
   subHeading: "BETTER WAY TO MANAGE PRODUCTIVITY"
   text: "Track time and understand the exact cost of your everyday activities. Identify inefficiencies and improve your business processes based on accurate data."
   btnText: "Get Started Now"
-  btnUrl: "https://productively.app/login"
+  btnUrl: "https://productively.app/register"
   image: "/assets/images/hero.svg"
 ---
 
