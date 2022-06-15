@@ -106,6 +106,8 @@ footer:
     text: Services
   - link: "#how-its-works"
     text: How It Works
+  - link: "/privacy-policy/"
+    text: Privacy Policy
   # centercol:
   # - text: Partners
   #   link: "#home"
