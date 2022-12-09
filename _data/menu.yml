@@ -4,7 +4,7 @@ main:
   - name: Services
     url: "#services"
   - name: How It Works
-    url: "#how-its-works"
+    url: "#services"
   - name: Pricing
     url: "#price"
     
@@ -12,7 +12,9 @@ main:
 right:
   - name: Sign In 
     url: 'https://productively.app/login'
-  - name: Try Productive Free
+    button: true
+    class: bordered
+  - name: Try Free
     url: 'https://productively.app/register'
     button: true
 

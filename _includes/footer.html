@@ -4,7 +4,7 @@
     <div class="footer-top">
         <div class="container">
           <div class="row">  
-            <div class="col-lg-4 col-md-6 footer-contact">
+            <div class="col-md-4 footer-contact">
               <h3><img src="{{ site.logo}}" alt="{{site.title}}" > </h3>
               <p>
                {{foot.about}}
@@ -18,7 +18,7 @@
               {% endif %}
             </div>
   
-            <div class="col-lg-1 offset-lg-1 col-md-6 footer-links mt-4 mt-sm-0">
+            <div class="offset-md-2 col-md-3 footer-links mt-4 mt-sm-0">
               <h4>{{ foot.leftcolHeading }}</h4>  
                 <ul class="foot-link">      
                 {% for leftlinks in foot.leftcol %}
@@ -28,16 +28,16 @@
               
             </div>
   
-            <div class="col-lg-1 offset-lg-1 col-md-6 footer-links mt-4 mt-sm-0">
+            <!-- <div class="col-lg-1 offset-lg-1 col-md-6 footer-links mt-4 mt-sm-0">
                 <h4>{{ foot.centercolHeading }}</h4>  
                 <ul class="foot-link">      
                 {% for leftlinks in foot.centercol %}
                     <li><a href="{{leftlinks.link}}">{{leftlinks.text}}</a></li>
                 {% endfor %}
                 </ul>
-            </div>
+            </div> -->
   
-            <div class="col-lg-3 offset-lg-1 col-md-6 footer-links mt-4 mt-sm-0">
+            <div class="col-md-3 footer-links mt-4 mt-sm-0">
                 <h4>{{ foot.rightcolHeading }}</h4>  
                 <ul class="foot-locations">      
                 {% for leftlinks in foot.rightcol %}

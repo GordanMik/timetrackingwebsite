@@ -1,19 +1,29 @@
 <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex">
+<section id="hero" class="d-flex v1">
     <div class="container hero-inner">
       <div class="row">
-        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center text-start  pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+        <div class="col-12 col-lg-4  d-lg-flex flex-lg-column  pt-5 pt-lg-0 order-1" data-aos="fade-up">
           <div class="text-left">
-            {% if page.hero.subHeading != "" %}<h6 class="text-uppercase">{{ page.hero.subHeading }}</h6>{% endif %}
-            <h1>{{ page.hero.heading }}</h1>
+            {% if page.hero.subHeading != "" %}<h6>{{ page.hero.subHeading }}</h6>{% endif %}
+            <h1>{{ page.hero.heading }}
+              <!-- <img src="/assets/images/hero-header.svg" alt="hero header"> -->
+            </h1>
             {% if page.hero.text != "" %} <p>{{ page.hero.text  }}</p> {% endif %}
-            {% if page.hero.btnText != "" %} <a href="{{ page.hero.btnUrl }}" class="btn">{{ page.hero.btnText }}</a>{% endif %}
+            
           </div>
+
+          {% if page.hero.btnText != "" %}
+          <div class="col-12  justify-content-center order-3 text-left mt-4 mt-sm-0">
+             <a href="{{ page.hero.btnUrl }}" class="btn">{{ page.hero.btnText }}</a>
+          </div>
+          {% endif %}
         </div>
-        {% if page.hero.image != "" %} <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
+        {% if page.hero.image != "" %} <div class="col-12 col-lg-8 1 d-lg-flex flex-lg-column align-items-stretch order-2 hero-img text-center" data-aos="fade-up">
           <img src="{{ page.hero.image }}" class="img-fluid" alt="">
         </div>
         {% endif %}
+
+     
       </div>
     </div>
   </section><!-- End Hero -->
