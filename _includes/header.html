@@ -2,11 +2,7 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top  header-transparent ">
-    <div class="container  align-items-center justify-content-between">
-
-
-      
-
+    <div class="container-fluid  align-items-center justify-content-between">
     <nav class="navbar navbar-expand-sm" id="navbar" aria-label="Third navbar example">
     <div class="container-fluid">
       <div class="logo">
@@ -25,7 +21,7 @@
       
 
       <div class="collapse navbar-collapse nav-outter" id="navbarsExample03">
-        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+        <ul class="navbar-nav m-auto mb-2 mb-sm-0">
             {% for item in site.data.menu.main %}
                         {% if item.child %}
                         <li class="dropdown">
@@ -72,7 +68,7 @@
                                         
                                      
                                 {% if item.button  %}
-                                    <a class="nav-link btn" href="{{ item.url }}">{{ item.name }}</a>
+                                    <a class="nav-link btn {{item.class}}" href="{{ item.url }}">{{ item.name }}</a>
 
                                 {% else %}
                                 <a class="nav-link scrollto {% if item.url == page.url %} active {% endif %}" href="{{ item.url }}">{{ item.name }}</a>

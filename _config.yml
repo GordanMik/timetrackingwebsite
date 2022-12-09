@@ -13,68 +13,70 @@ github_username:
 home:
   feature:
     enabled: true
-    background:
+    background:  "rgba(45, 107, 207, 0.04)"
     heading: "Intuitive And Easy To Use"
     smallHeading: "FEATURE RICH"
-    description: Powerful features will help you stay efficient and organized. Here are some of the benefits of using <br> a time tracking system
+    description: Powerful features will help you stay efficient and organized. Here are some <br> of the benefits of using  a time tracking system
     items:
     - heading: Custom Time Tracking
       subHeading: POWERFUL AND EASY TO USE
       body: "Customize the way you measure time to exactly match your needs. Intuitive and easy to setup to allow you to track time as detailed as you want.
         <ul><li>Time tracking </li><li>Manual entry</li><li>Weekly timesheets</li><li>Mobile app on the go</li> </ul>"
       highlightText: 
-      image:  "/assets/images/feature1.svg"
-      btnText: 
+      image:  "/assets/images/feature1.png"
+      btnText: Learn More
       btnUrl: "#"
     - heading: Powerful Reporting
       subHeading: DESIGNED WITH YOU IN MIND
       body: "Tailor made analytics with powerful filtering and grouping capabilities to generate insights and reports to support payroll, accounting, invoicing and other important business functions."
       highlightText: 
       image:  "/assets/images/feature2.png"
-      btnText: 
+      btnText: Learn More
       btnUrl: 
     - heading: Always In Control
       subHeading: FLEXIBLE YET POWERFUL
-      body: "Configure up to file levels of measuring time, setup budgets and estimates, track expenses to collect data that you can use to analyze your processes and execution of everyday activities."
+      body: "Configure up to five levels of measuring time, setup budgets and estimates, track expenses to collect data that you can use to analyze your processes and execution of everyday activities."
       highlightText: 
-      image:  "/assets/images/feature1.svg"
-      btnText: 
+      image:  "/assets/images/feature3.png"
+      btnText: Learn More
       btnUrl: 
   services:
     enabled: true
     background: "#F8F9FC"
     heading: "Path To Improved Productivity"
     smallHeading: "FLEXIBLE YET POWERFUL"
-    description: Use the data you collect and follow simple framework below to improve your processes and reduce the cost of doing business
+    description: Use the data you collect and follow simple framework below to improve<br> your processes and reduce the cost of doing business
+    btnText: 
+    btnUrl:     
     items:
     - heading: Track Time
-      body: 	Measure and record time throughout your business to capture activities and time spent.
-      icon:  "/assets/images/62.svg"
+      body: 	Measure and record time throughout your <br> business to capture activities and time spent.
+      icon:  "/assets/images/time.svg"
       btnText: 
       btnUrl: "#"
     - heading: Report And Visualize
-      body: Use time entries to power reports and graphs to visualize how time is utilized in the business.
-      icon:  "/assets/images/41.svg"
+      body: Use time entries to power reports and<br> graphs to visualize how time is utilized in the business.
+      icon:  "/assets/images/report.svg"
       btnText: 
       btnUrl: "#"
     - heading: Invoice & Get Paid
-      body: Analyze reports and insights to identify areas for improvement and implement more detailed tracking to refine processes.
-      icon:  "/assets/images/star.svg"
+      body: Analyze reports and insights to identify<br> areas for improvement and implement more detailed tracking to refine processes.
+      icon:  "/assets/images/invoice.svg"
       btnText: 
       btnUrl: "#"
   price:
     enabled: true
     background: ""
-    heading: "All Features And Future Upgrades Included. <br> One Simple Cost."
+    heading: "All Features And Future Upgrades Included.  One Simple Cost."
     smallHeading: "best Price"
-    description: "At Productively we are committed to providing a feature rich experience without the hidden costs. <br> Sign up today to secure this offer. Start your 14 day free trial now."
+    description: "At Productively we are committed to providing a feature rich experience <br> without the hidden costs. Sign up today to secure this offer. Start your 14 day <br>free trial now."
     items:
     - heading: 
       price: $5
       plan: per user/month
       body: 
       advantage:
-      - text: "No Creedit Card Required"
+      - text: "No Credit Card Required"
       - text: "Easy time tracking"
       - text: "Apps for all your devices"
       - text: Scale your team easily as you grow

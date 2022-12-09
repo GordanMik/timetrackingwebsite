@@ -26,20 +26,48 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 10px 0 10px 30px;
+          padding: 10px 30px 10px 30px !important;
           font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 22px;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+          text-align: center;
+          text-transform: capitalize;
           white-space: nowrap;
           transition: 0.3s;
           color: $white;
-          text-transform: none;
+
+          @include devices(tablet) {
+            padding: 10px !important;
+        }
     
           &.btn{
-            color: #003378;
+            font-weight: 500;
             font-size: 16px;
-            text-transform: uppercase;
+            line-height: 14px;
+            color: #0D64D9;
+            padding: 11px 22px !important;
+            background: $white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 52px;
+            margin-left: 15px;
+            @include devices(tablet) {
+              margin-left: 10px;
+              padding: 11px 15px !important;
+            }
+      
+
+            &.bordered{
+              border: 1px solid rgba(255, 255, 255, 0.3);
+              border-radius: 52px;
+              background: transparent;
+              color: $white;
+              @include devices(mobile) {
+                background: #2a76df;
+                margin-bottom: 15px;
+              }
+        
+            }
           }
         }
 
@@ -54,7 +82,7 @@
     margin-left: 5px;
   }
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: #5777ba;
+    color: #152C5B;
   }
   .navbar .getstarted, .navbar .getstarted:focus {
     background: #5777ba;

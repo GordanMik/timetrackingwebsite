@@ -2,20 +2,26 @@
 
 {% if features.enabled %}    
     <section id="features" class="section features" style="background-color: {{item.background}};">
-        <div class="container">  
-          <div class="section-title">
-            <h6>{{features.smallHeading}}</h6>
-            <h2>{{features.heading}}</h2>
-            <p>{{features.description}}</p>
+        <div class="section-title">
+            <div class="container">  
+                <h6>{{features.smallHeading}}</h6>
+                <h2>{{features.heading}}</h2>
+                <p>{{features.description}}</p>
+            </div>
           </div>
+        <div class="container-fluid px-0">  
+            
+          
           {% for item in features.items %}
-            {% assign mod = forloop.index | modulo: 2 %}   
+            {% assign mod = forloop.index | modulo: 2 %} 
+            <div class="content  {% if mod != 0 %} left{% endif %}">
+                <div class="container">
 
-          <div class="row content">
-            <div class="col-md-6 {% if mod != 0 %} order-1 order-md-2{% endif %}" data-aos="fade-left">
+          <div class="row">
+            <div class="col-md-7 text-center {% if mod != 0 %} order-1 order-md-2{% endif %}" data-aos="fade-left">
               <img src="{{item.image}}" class="img-fluid" alt="">
             </div>
-            <div class="col-md-6 pt-5 {% if mod != 0 %} order-2 order-md-1{% endif %} align-start" data-aos="fade-up">
+            <div class="col-md-5 pt-5 {% if mod != 0 %} order-2 order-md-1{% endif %} align-start" data-aos="fade-up">
                 {% if item.subHeading %}
                     <h6>{{item.subHeading}}</h6>
                 {% endif %}
@@ -30,12 +36,17 @@
                 
             {% endif %}
             {% if item.btnText %}
-            <a href="{{item.btnUrl}}" class="btn-dark">{{item.btnText}}</a>
+            <a href="{{item.btnUrl}}" class="btn btn-bordered">{{item.btnText}}</a>
               
              {% endif %}
                
             </div>
           </div>
+        </div>
+
+        <!-- <img src="" alt="feature" class="features-shape {% if mod != 0 %} left {% endif %}"> -->
+
+        </div>
           {% endfor %}
 
 
