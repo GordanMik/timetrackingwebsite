@@ -13,8 +13,8 @@ hero:
 
 
 ## Welcome to our Privacy Policy
-Your privacy is critically important to us.   
-Productively is located at:   
+Your privacy is critically important to us.
+Productively is located at:
 #430, 404 6th Ave SW <br> AB, CANADA, T2P 0R9"
 
 
@@ -25,6 +25,27 @@ It is Productively's policy to respect your privacy regarding any information we
 Like most website operators, Productively collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Productively's purpose in collecting non-personally identifying information is to better understand how Productively's visitors use its website. From time to time, Productively may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.
 
 Productively also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users and for users leaving comments on [https://productively.io](https://productively.io) blog posts. Productively only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below.
+
+## Data collection and use:
+
+Our app collects location-related data in order to provide you with a range of features that enhance your experience. We collect precise or approximate location data from user mobile devices when the Productively app is running in the foreground (app open and on-screen) or background (app open but not on-screen). We collect precise or approximate location information from user mobile devices if they enable us to do so via their device settings.
+
+This policy outlines the types of location data we collect, how we use it, and how we protect your privacy.
+
+1. Start of the timer (Tracker -> Start): When you start the timer, our app will collect your current location information in order to accurately track the start time and location of your task or project.
+2. End of the timer (Tracker -> Stop): When you stop the timer, our app will collect your current location information in order to accurately track the end time and location of your task or project.
+3. Manual time log (Manual -> Add): When you manually log a time entry, our app will collect your current location information in order to accurately track the location of your task or project.
+4. Trip -> Add trip: When you add a trip, our app will collect your current location information in order to accurately track the start location of your trip.
+5. Trip -> Complete trip: When you complete a trip, our app will collect your current location information in order to accurately track the end location of your trip.
+6. Trip -> Request current trip location from a web app: When current location is requested for your trip from a web app, our app will collect current location information of your trip in order to provide accurate location information in the web app.
+7. Capture Image or Attach from gallery inside of Timetracker, Manual Time, Expenses, or Trip features: When you choose to capture an image or take one from your gallery, our app will collect your current location information in order to accurately associate the image with the location where it was taken.
+
+We will use the location data we collect to provide you with accurate time tracking and location information, as well as to enhance your experience with our app. We will also use it to improve our app and develop new features.
+
+We take the privacy of our users very seriously and will not share or sell your location data to any third parties without your express consent. We also take appropriate measures to protect your location data from unauthorized access or disclosure.
+
+By using our app, you consent to the collection and use of your location data as outlined in this policy. If you have any questions or concerns about our location data usage and privacy policy, please contact us.
+
 
 ## Gathering of Personally-Identifying Information
 
@@ -58,6 +79,3 @@ By continuing to navigate our website without changing your cookie settings, you
 
 
 Although most changes are likely to be minor, Productively may change its Privacy Policy from time to time, and in Productively's sole discretion. Productively encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.
-
-
-
