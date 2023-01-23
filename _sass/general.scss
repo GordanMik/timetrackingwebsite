@@ -49,7 +49,7 @@ body {
     text-decoration: none;
 
     font-weight: 600;
-    font-size: 18px;
+    // font-size: 18px;
     line-height: 25px;
     /* identical to box height */
 
@@ -151,6 +151,15 @@ body {
     font-size: 20px;
     line-height: 27px;
     color: $white;
+  }
+  h2{
+    font-family: $headingFont;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    color: $heading;
+    font-size: 24px;
+    text-transform: capitalize;
   }
   #main{
     overflow: hidden;
