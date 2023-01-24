@@ -26,7 +26,7 @@ Like most website operators, Productively collects non-personally-identifying in
 
 Productively also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users and for users leaving comments on [https://productively.io](https://productively.io) blog posts. Productively only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below.
 
-## Data collection and use:
+## Data collection and use
 
 Our app collects location-related data in order to provide you with a range of features that enhance your experience. We collect precise or approximate location data from user mobile devices when the Productively app is running in the foreground (app open and on-screen) or background (app open but not on-screen). We collect precise or approximate location information from user mobile devices if they enable us to do so via their device settings.
 
