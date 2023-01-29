@@ -32,13 +32,18 @@ Our app collects location-related data in order to provide you with a range of f
 
 This policy outlines the types of location data we collect, how we use it, and how we protect your privacy.
 
-1. Start of the timer (Tracker -> Start): When you start the timer, our app will collect your current location information in order to accurately track the start time and location of your task or project.
-2. End of the timer (Tracker -> Stop): When you stop the timer, our app will collect your current location information in order to accurately track the end time and location of your task or project.
-3. Manual time log (Manual -> Add): When you manually log a time entry, our app will collect your current location information in order to accurately track the location of your task or project.
-4. Trip -> Add trip: When you add a trip, our app will collect your current location information in order to accurately track the start location of your trip.
-5. Trip -> Complete trip: When you complete a trip, our app will collect your current location information in order to accurately track the end location of your trip.
-6. Trip -> Request current trip location from a web app: When current location is requested for your trip from a web app, our app will collect current location information of your trip in order to provide accurate location information in the web app.
-7. Capture Image or Attach from gallery inside of Timetracker, Manual Time, Expenses, or Trip features: When you choose to capture an image or take one from your gallery, our app will collect your current location information in order to accurately associate the image with the location where it was taken.
+**Background location:**
+
+- Trip -> Track current trip location from a web app: When current location is requested for your trip from a web app by supervisor, our app will collect current active trip location in order to show it on a map in a web app.
+
+**While app is in use:**
+
+- Trip -> Add trip: When you add a trip, our app will collect your current location information in order to accurately track the start location of your trip.
+- Trip -> Complete trip: When you complete a trip, our app will collect your current location information in order to accurately track the end location of your trip.
+- Start of the timer (Tracker -> Start): When you start the timer, our app will collect your current location information in order to accurately track the start time and location of your task or project.
+- End of the timer (Tracker -> Stop): When you stop the timer, our app will collect your current location information in order to accurately track the end time and location of your task or project.
+- Manual time log (Manual -> Add): When you manually log a time entry, our app will collect your current location information in order to accurately track the location of your task or project.
+- Capture Image or Attach from gallery inside of Timetracker, Manual Time, Expenses, or Trip features: When you choose to capture an image or take one from your gallery, our app will collect your current location information in order to accurately associate the image with the location where it was taken.
 
 We will use the location data we collect to provide you with accurate time tracking and location information, as well as to enhance your experience with our app. We will also use it to improve our app and develop new features.
 
